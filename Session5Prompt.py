@@ -18,7 +18,7 @@ def print_sin_table(table):
 
 def main():
     start_x = 0
-    end_x = 2
+    end_x = 2 * math.pi
     num_entries = 1000
 
     sin_table = generate_sin_table(start_x, end_x, num_entries)
