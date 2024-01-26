@@ -1,19 +1,23 @@
 class fav_animal:
-    arms = float(5)
-    legs = float(7)
-    eyes = int(2)
-    tail = True
-    furry = False
-    print("Length of the arms is: ", arms)
-    print("Length of the legs is: ", legs)
-    print("Number of eyes there are: ", eyes)
-    print("Does it have a tail? ", tail)
-    print("Is it a furry: ", furry)
+    def __init__(self):
+        self.arms = float(5)
+        self.legs = float(7)
+        self.eyes = int(2)
+        self.tail = True
+        self.furry = False
+
+    def attributes(self):
+        print("Length of the arms is: ", self.arms)
+        print("Length of the legs is: ", self.legs)
+        print("Number of eyes there are: ", self.eyes)
+        print("Does it have a tail? ", self.tail)
+        print("Is it a furry: ", self.furry)
 
 
 
 def main():
-    fav_animal
+    animal = fav_animal()
+    animal.attributes()
     
     
 
